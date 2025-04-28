@@ -17,6 +17,4 @@ export abstract class Animal implements IAnimal{
     }
     
     abstract tipoDeDieta():void;
-    
-
 }
