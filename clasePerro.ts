@@ -1,15 +1,11 @@
 import { Animal } from "./claseAnimal";
 
-
-export class perro extends Animal{
-private sonido:string = "guauuuuu"  
+export class perro extends Animal{ 
     
     public emitirSonido(): void{
-        console.log(`${this.sonido}`)
-    }
-    
+        console.log("Guauuuuuu");
+    }    
     tipoDeDieta():void{
-        console.log(`A ${this.nombreAnimal} le gusta comer carne`)
-        
+        console.log(`A ${this.nombreAnimal} le gusta comer carne`);        
     }
-} 
+}; 

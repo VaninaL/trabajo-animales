@@ -20,15 +20,10 @@ var claseAnimal_1 = require("./claseAnimal");
 var perro = /** @class */ (function (_super) {
     __extends(perro, _super);
     function perro() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.sonido = "guauuuuu";
-        return _this;
+        return _super !== null && _super.apply(this, arguments) || this;
     }
     perro.prototype.emitirSonido = function () {
-        console.log("".concat(this.sonido));
-    };
-    perro.prototype.moverse = function () {
-        console.log("".concat(this.nombreAnimal, " se mueve.."));
+        console.log("Guauuuuuu");
     };
     perro.prototype.tipoDeDieta = function () {
         console.log("A ".concat(this.nombreAnimal, " le gusta comer carne"));

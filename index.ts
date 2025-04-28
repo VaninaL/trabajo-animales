@@ -7,6 +7,7 @@ let miGato = new gato("Pipo");
 miPerro.emitirSonido();
 miPerro.moverse();
 miPerro.tipoDeDieta();
+
 miGato.emitirSonido();
 miGato.moverse();
 miGato.tipoDeDieta();
